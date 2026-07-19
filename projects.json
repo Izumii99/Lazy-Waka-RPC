@@ -1,0 +1,47 @@
+[
+    {
+        "project": "backend-uhtp",
+        "language": "TypeScript",
+        "entity": "/src/controllers/UserController.ts"
+    },
+    {
+        "project": "backend-uhtp",
+        "language": "TypeScript",
+        "entity": "/src/routes/api.ts"
+    },
+    {
+        "project": "monorepo-ganbatte",
+        "language": "PHP",
+        "entity": "/app/Http/Controllers/MainController.php"
+    },
+    {
+        "project": "ganbatte",
+        "language": "Blade Template",
+        "entity": "/resources/views/dashboard.blade.php"
+    },
+    {
+        "project": "linktree-clone",
+        "language": "React",
+        "entity": "/src/App.jsx"
+    },
+    {
+        "project": "Waka-RPC",
+        "language": "JavaScript",
+        "entity": "/waka-rpc.js"
+    },
+    {
+        "project": "E-Commerce-Laravel",
+        "language": "PHP",
+        "entity": "/app/Http/Controllers/ProductController.php"
+    },
+    {
+        "project": "www",
+        "language": "HTML",
+        "entity": "/index.html"
+    },
+    {
+        "project": "user",
+        "language": "Python",
+        "entity": "/main.py"
+    }
+]

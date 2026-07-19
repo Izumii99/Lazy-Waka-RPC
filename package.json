@@ -1,0 +1,13 @@
+{
+  "name": "waka-rpc",
+  "version": "1.0.0",
+  "description": "Custom Discord Rich Presence with WakaTime Spoofer",
+  "main": "waka-rpc.js",
+  "scripts": {
+    "start": "node waka-rpc.js"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^16.4.7"
+  }
+}
