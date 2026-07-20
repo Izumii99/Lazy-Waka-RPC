@@ -171,7 +171,7 @@ function checkAndRun() {
                 try {
                     rpc.setActivity({
                         details: "Dominate my code~ <3",
-                        state: "Ngajarin kode ini siapa bosnya... ehe :3 ",
+                        state: "Kali ni beneran ngoding ehe... :3",
                         startTimestamp: START_TIME,
                         instance: false,
                     });
