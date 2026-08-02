@@ -1,12 +1,20 @@
-# 🤖 Waka-RPC
+<div align="center">
+  <img src="./assets/discord-preview.png" alt="Discord RPC Preview" width="350" />
+  <h1> Waka-RPC</h1>
+  <p>A 2-in-1 bot that fakes WakaTime activity and syncs it with Discord Rich Presence</p>
 
-<p align="center">
-  <img src="./assets/discord-preview.png" alt="Discord RPC Preview" width="350"/>
-</p>
+  <p>
+    <img src="https://img.shields.io/badge/Node.js-v18+-green?logo=node.js" />
+    <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey" />
+    <img src="https://img.shields.io/badge/license-MIT-blue" />
+  </p>
+</div>
 
-A 2-in-1 bot that fakes your coding activity to **WakaTime** and syncs it beautifully with your **Discord Rich Presence**. Keep your GitHub WakaTime stats looking active with varied languages and projects, while maintaining a cool, subtle, and aesthetic status on your Discord profile!
+---
 
-## ✨ Features
+Keep your GitHub WakaTime stats looking active with varied languages and projects, while maintaining a cool, subtle, and aesthetic status on your Discord profile!
+
+## Features
 
 - **WakaTime Spoofer:** Simulates coding activity by sending randomized heartbeats based on a list of projects.
 - **Discord Rich Presence:** Shows what you are "coding" on your Discord profile.
@@ -15,7 +23,7 @@ A 2-in-1 bot that fakes your coding activity to **WakaTime** and syncs it beauti
 - **Smart IDE Detection (DA REAL CODING Mode):** Automatically detects if you open a real IDE (VS Code, JetBrains, dll). It will pause the dummy bot and change your Discord RPC to show you're actually working!
 - **Background Execution:** Run it silently in the background on Windows.
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
     ```bash
@@ -38,7 +46,7 @@ A 2-in-1 bot that fakes your coding activity to **WakaTime** and syncs it beauti
 4. **Configure Projects (Optional)**
    Open `projects.json` and customize the list of projects, languages, and file entities you want the bot to randomly simulate. The more varied, the more natural your WakaTime graph will look!
 
-## 💻 How to Use
+## How to Use
 
 ### Windows
 
@@ -69,11 +77,11 @@ A 2-in-1 bot that fakes your coding activity to **WakaTime** and syncs it beauti
 
     _(Note: If you run this inside WSL while Discord is running on Windows, the Discord RPC will fail to connect due to isolated IPC, but the WakaTime spoofer will still work perfectly)._
 
-## 📝 Customizing Discord Status
+## Customizing Discord Status
 
 If you want to change the text that appears on your Discord status (e.g., changing "Hobby Project" to something else), you can edit the `discordDetails` and `discordState` variables inside `waka-rpc.js`.
 
-## 🧠 Smart IDE Detection
+## Smart IDE Detection
 
 The script checks your background processes every 15 seconds. If it detects that you've opened a popular code editor or IDE (such as `VS Code`, `Cursor`, `Antigravity IDE`, `IntelliJ IDEA`, `WebStorm`, `Sublime Text`, dll), it will:
 
@@ -84,6 +92,7 @@ The script checks your background processes every 15 seconds. If it detects that
 You can customize the list of detected IDE executables in the `ides` array inside `waka-rpc.js`.
 
 ---
+
 <p align="center">
   <img src="./assets/terminal-preview.png" alt="Terminal Log Preview" width="500"/>
   <br/>

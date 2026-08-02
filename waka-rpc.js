@@ -62,14 +62,14 @@ async function sendHeartbeat(scenario) {
 
             if (scenario.project === "backend-uhtp") {
                 discordDetails = `🔒 Absolute Authority`;
-                discordState = `Menulis aturan mutlak di backend API `;
+                discordState = `Nganuin backend API`;
             } else if (
                 scenario.project === "monorepo-ganbatte" ||
                 scenario.project === "ganbatte" ||
                 scenario.project === "E-Commerce-Laravel"
             ) {
                 discordDetails = `⛓️ Discipline Session`;
-                discordState = `Memainkan ekosistem Laravel agar patuh :3 `;
+                discordState = `Memainkan Laravel agar patuh :3 `;
             } else {
                 discordDetails = `🕹️ Obedience Test`;
                 discordState = `Memaksa kode untuk patuh`;
